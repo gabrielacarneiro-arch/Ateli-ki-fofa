@@ -1,0 +1,170 @@
+{
+  "bot_metadata": {
+    "bot_name": "Assistente Ki Fofa",
+    "version": "1.0.0",
+    "business_name": "Ateliê Ki Fofa",
+    "tagline": "Arte em Macramê, Home Sprays artesanais & Sublimação",
+    "language": "pt-BR"
+  },
+  "business_info": {
+    "location": {
+      "city": "Taquaritinga",
+      "state": "SP",
+      "country": "Brasil",
+      "delivery_coverage": "Atendimento presencial/local em Taquaritinga - SP e envios para todo o Brasil via Correios e Transportadoras."
+    },
+    "contacts": {
+      "whatsapp": "+5516991954414",
+      "whatsapp_formatted": "(16) 99195-4414",
+      "whatsapp_link": "https://wa.me/5516991954414",
+      "instagram_principal": "@kifofaa",
+      "instagram_principal_link": "https://www.instagram.com/kifofaa/",
+      "instagram_parceiro": "@venus.emflor",
+      "instagram_parceiro_link": "https://www.instagram.com/venus.emflor/"
+    },
+    "payment_methods": [
+      "Pix",
+      "Cartão de Crédito",
+      "Cartão de Débito",
+      "Transferência Bancária"
+    ]
+  },
+  "product_catalog": {
+    "macrame": {
+      "category_name": "Macramê Exclusivo",
+      "description": "Peças tecidas nó a nó com fios 100% algodão resistentes e acabamento artesanal refinado.",
+      "items": [
+        {
+          "id": "macrame-bolsa-bambu",
+          "name": "Bolsa com Alça de Bambu",
+          "description": "Bolsa artesanal em macramê bicolor (vermelho e cru) com alça de madeira/bambu e franjas elegantes.",
+          "availability": "Pronta Entrega e Encomenda",
+          "specifications": "Fios 100% algodão, alça rígida natural."
+        },
+        {
+          "id": "macrame-bolsa-tote",
+          "name": "Bolsa Sacola / Tote Terracota",
+          "description": "Bolsa estilosa e espaçosa em tons de terracota ou preto.",
+          "availability": "Pronta Entrega e Encomenda",
+          "specifications": "Alta resistência, ideal para o dia a dia."
+        },
+        {
+          "id": "macrame-porta-moedas",
+          "name": "Porta-Moedas e Mini Carteiras",
+          "description": "Acessórios e bolsinhas transversais delicadas para carregar itens essenciais.",
+          "availability": "Sob Encomenda",
+          "specifications": "Trançados manuais com fecho."
+        },
+        {
+          "id": "macrame-mesa-posta",
+          "name": "Mesa Posta (Sousplat & Porta-Copos)",
+          "description": "Kits para vestir a mesa com charme e elegância.",
+          "availability": "Sob Encomenda",
+          "specifications": "Trançado reforçado com franjas aparadas."
+        },
+        {
+          "id": "macrame-espirito-santo",
+          "name": "Medalhão Espírito Santo",
+          "description": "Peça decorativa para parede/porta com aplique de Espírito Santo para abençoar ambientes.",
+          "availability": "Sob Encomenda",
+          "specifications": "Detalhes artesanais com nó em franja."
+        }
+      ]
+    },
+    "home_spray": {
+      "category_name": "Home Sprays Artesanais",
+      "description": "Aromatizadores de ambiente artesanais com essências selecionadas premium.",
+      "volume": "120ml",
+      "availability": "Pronta Entrega",
+      "fragrances": [
+        {
+          "name": "Bambu",
+          "notes": "Fresco, leve e promovente de bem-estar."
+        },
+        {
+          "name": "Algodão",
+          "notes": "Suave, aconchegante e sensação de limpeza."
+        },
+        {
+          "name": "Melancia",
+          "notes": "Frutado, alegre e adocicado."
+        },
+        {
+          "name": "Capim-Limão",
+          "notes": "Cítrico, herbal e revigorante."
+        }
+      ]
+    },
+    "sublimacao": {
+      "category_name": "Linha Sublimação & Lembrancinhas",
+      "description": "Artigos personalizados com estampas, fotos ou frases sob medida para eventos e presentes.",
+      "availability": "Sob Encomenda",
+      "customization_options": "Cores, frases, nomes e temas específicos."
+    }
+  },
+  "intents": [
+    {
+      "intent": "saudacao",
+      "keywords": ["oi", "olá", "bom dia", "boa tarde", "boa noite", "oii", "começar"],
+      "responses": [
+        "Olá! Seja muito bem-vindo(a) ao Ateliê Ki Fofa! 🧶✨ Como posso te ajudar hoje?",
+        "Oi, tudo bem? Que bom ter você aqui! No Ki Fofa temos Macramê artesanal, Home Sprays de 120ml e mimos em Sublimação. Como posso te auxiliar?"
+      ]
+    },
+    {
+      "intent": "consultar_produtos",
+      "keywords": ["produtos", "catalogo", "o que vendem", "opcoes", "macrame", "home spray", "sublimacao"],
+      "responses": [
+        "Trabalhamos com 3 linhas principais de produtos artesanais:\n1. 🧶 **Macramê Exclusivo**: Bolsas (alça de bambu, tote), porta-moedas, sousplats e decorações.\n2. 🌿 **Home Sprays (120ml)**: Fragrâncias de Bambu, Algodão, Melancia e Capim-Limão.\n3. ✨ **Sublimação**: Mimos e lembrancinhas personalizadas sob encomenda."
+      ]
+    },
+    {
+      "intent": "home_spray_fragrancias",
+      "keywords": ["cheiro", "aroma", "fragrancia", "perfume", "home spray", "essencias"],
+      "responses": [
+        "Nossos Home Sprays vêm em frascos borrifadores de **120ml** nas seguintes essências:\n• 🌿 **Bambu** (Fresco e elegante)\n• ☁️ **Algodão** (Aconchegante e suave)\n• 🍉 **Melancia** (Frutado e doce)\n• 🍋 **Capim-Limão** (Cítrico e revigorante)\n\nTodos estão disponíveis para pronta entrega! Gostaria de reservar o seu?"
+      ]
+    },
+    {
+      "intent": "fazer_encomenda",
+      "keywords": ["encomendar", "comprar", "pedido", "agendar", "personalizar", "preço", "valor"],
+      "responses": [
+        "Para fazer um pedido ou orçamento personalizado, você pode nos enviar os detalhes por aqui ou falar diretamente com a gente via WhatsApp: https://wa.me/5516991954414 📱\n\nQual produto você gostaria de encomendar?"
+      ]
+    },
+    {
+      "intent": "frete_e_entrega",
+      "keywords": ["frete", "entrega", "envios", "taquaritinga", "correios", "retirada"],
+      "responses": [
+        "Nossos produtos são produzidos em **Taquaritinga - SP**. Realizamos entrega/retirada local e enviamos para todo o Brasil via Correios ou transportadora. Mande seu CEP no WhatsApp para calcularmos o frete para você!"
+      ]
+    },
+    {
+      "intent": "redes_sociais",
+      "keywords": ["instagram", "redes", "fotos", "insta", "seguir"],
+      "responses": [
+        "Você pode acompanhar nossos trabalhos e fotos reais pelas nossas redes oficiais:\n📸 Instagram Ateliê: @kifofaa (https://www.instagram.com/kifofaa/)\n🌸 Instagram Parceria: @venus.emflor (https://www.instagram.com/venus.emflor/)"
+      ]
+    },
+    {
+      "intent": "horario_localizacao",
+      "keywords": ["onde fica", "endereco", "cidade", "local"],
+      "responses": [
+        "Somos de **Taquaritinga - SP**! Atendemos sob encomenda e enviamos com todo o carinho para onde você estiver."
+      ]
+    },
+    {
+      "intent": "despedida",
+      "keywords": ["tchau", "obrigado", "obrigada", "valeu", "ate logo"],
+      "responses": [
+        "Muito obrigado(a) pelo contato! Se precisar de mais alguma coisa, estarei por aqui. Tenha um ótimo dia! 🧶✨",
+        "Por nada! Ficamos à disposição no WhatsApp ou Instagram sempre que precisar."
+      ]
+    }
+  ],
+  "fallback": {
+    "intent": "desconhecido",
+    "response": "Desculpe, não entendi muito bem. Você gostaria de saber sobre nossas **Bolsas em Macramê**, nossos **Home Sprays (120ml)** ou fazer um **pedido personalizado**? Se preferir, pode falar direto com a gente no WhatsApp: https://wa.me/5516991954414"
+  }
+}
+
